@@ -1,0 +1,40 @@
+main {
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto; 
+}
+
+form {
+    background-color: aliceblue;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    padding: 8px 0; 
+    border-bottom: 1px solid #e5e7eb; 
+}
+
+#todo-list {
+    height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #3b82f6;
+}
+
+button:focus {
+    outline: 2px solid #3b82f6; 
+}
